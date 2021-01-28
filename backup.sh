@@ -17,9 +17,9 @@ passwd -l user4
 # Como ves, se almacenan en /backup, teniendo cada usuario su carpeta personal.
 #tar -zcvpf /[Ruta_copia_seguridad]/[nombre_copia_seguridad] /[Ruta_directorio_datos]
 tar -zcvpf /backup/user1-$(date +%d-%m-%Y).tar.gz /home/user1
-tar -zcvpf /backup/user1-$(date +%d-%m-%Y).tar.gz /home/user2
-tar -zcvpf /backup/user1-$(date +%d-%m-%Y).tar.gz /home/user3
-tar -zcvpf /backup/user1-$(date +%d-%m-%Y).tar.gz /home/user4
+tar -zcvpf /backup/user2-$(date +%d-%m-%Y).tar.gz /home/user2
+tar -zcvpf /backup/user3-$(date +%d-%m-%Y).tar.gz /home/user3
+tar -zcvpf /backup/user4-$(date +%d-%m-%Y).tar.gz /home/user4
 
 ## Restaurar el login para los usuarios ##
 
